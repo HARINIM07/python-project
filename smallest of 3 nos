@@ -1,0 +1,17 @@
+a=int(input("Enter a no:"))
+b=int(input("Enter a no:"))
+c=int(input("Enter a no:"))
+if(a<b):
+    if(a<c):
+        print("Smallest is:",a)
+    else:
+        print("Smallest is:",c)
+elif(b<a):
+    if(b<c):
+        print("Smallest is:",b)
+    else:
+        print("Smallest is:",c)
+else:
+    print("Smallest is:",c)
+     
+     
